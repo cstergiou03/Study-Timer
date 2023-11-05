@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study-Time</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Set time</h1>
+
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/471N195f5jAVs086lzYglw?utm_source=generator" 
+        width="30%" height="350" frameBorder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" loading="lazy"></iframe>
+
+    <video src="./backround/nature_-_108598 (Original).mp4" muted autoplay loop></video>
+
+    
+    <div class="main">
+        <div class="card">
+            <div class="count-down">
+                <p class="heads" id="timer">00:00:00</p>
+            </div>
+            <div class="currTime">
+                <p class="secheads" id="hour"></p>
+            </div>
+        </div>
+        <div>
+            <button class="reset" id="reset"> Reset </button>
+            <input type="time" id="appt" name="appt">  
+            <button class="start" id="start">Start</button>
+        </div>    
+    </div>
+       
+    
+    
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

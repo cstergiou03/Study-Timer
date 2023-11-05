@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; 
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    top: 20px;
+    left: 0px;
+    z-index: 1; 
+}
+
+iframe {
+    position: absolute;
+    bottom: -180px;
+    left: 20px;
+    z-index: 1; 
+}
+
+
+.heads {
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 2.5rem;
+    
+}
+
+.secheads{
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1d2124;
+    color: rgb(58, 56, 53);
+    padding: 1em;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 350px;
+    height: 140px;
+    margin: 0 auto;
+    margin-top: 0%;
+}
+
+
+/* Κοινά στυλ για τα κουμπιά */
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Στιλ για το Reset κουμπί */
+.reset {
+    background-color: #1d2124;
+}
+
+/* Στιλ για το Start κουμπί */
+.start {
+    background-color: #1d2124;
+}
+
+/* Στιλ για το πεδίο εισαγωγής του χρόνου */
+#appt {
+    padding: 5px;
+    border: 2px solid #1d2124;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Εφέ hover για τα κουμπιά */
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Εφέ active (πατημένο) για τα κουμπιά */
+button:active {
+    background-color: #1c638c;
+}
+
+
