@@ -69,8 +69,6 @@ iframe {
     margin-top: 0%;
 }
 
-
-/* Κοινά στυλ για τα κουμπιά */
 button {
     padding: 10px 20px;
     background-color: #3498db;
@@ -80,17 +78,14 @@ button {
     cursor: pointer;
 }
 
-/* Στιλ για το Reset κουμπί */
 .reset {
     background-color: #1d2124;
 }
 
-/* Στιλ για το Start κουμπί */
 .start {
     background-color: #1d2124;
 }
 
-/* Στιλ για το πεδίο εισαγωγής του χρόνου */
 #appt {
     padding: 5px;
     border: 2px solid #1d2124;
@@ -98,12 +93,10 @@ button {
     font-size: 16px;
 }
 
-/* Εφέ hover για τα κουμπιά */
 button:hover {
     background-color: #2980b9;
 }
 
-/* Εφέ active (πατημένο) για τα κουμπιά */
 button:active {
     background-color: #1c638c;
 }

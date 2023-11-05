@@ -27,10 +27,8 @@ function startTimer() {
 
 
     if (currentHours < hours || (currentHours === hours && currentMinutes < minutes)) {
-        // Η δοσμένη ώρα είναι στο μέλλον
         remainingTime = (hours - currentHours) * 3600 + (minutes - currentMinutes) * 60;
     } else {
-        // Η δοσμένη ώρα είναι στο παρελθόν
         remainingTime = (24 - currentHours + hours) * 3600 + (minutes - currentMinutes) * 60;
     }
 
