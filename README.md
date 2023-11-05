@@ -32,3 +32,7 @@ git clone https://github.com/your-username/Study-Timer.git
 6. Όταν ο χρόνος τελειώσει, μπορείτε να επαναφέρετε το χρονόμετρο για να ξεκινήσετε ξανά την μελέτη σας.
 
 Καλή μελέτη!
+
+## Link
+
+https://study-timer-virid.vercel.app/
